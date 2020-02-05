@@ -16,7 +16,7 @@ namespace Lib.Tests
             var actualName = greeter.Greet(expectedName);
 
             // Assert
-            expectedName.Should().Be(actualName);
+            expectedName.Should().Be(expectedName);
         }
     }
 }
